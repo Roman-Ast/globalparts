@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (min-width: 1200px){
+    #main-div{
+        width: 100%;
+        height: 100vh;
+    }
+    #header-gis{
+        display: none;
+    }
+    #main-image-container{
+        width: 100%;
+        height: 100vh;
+        background-image: url('/images/1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 60%;
+    }
+    #main_image_container_shadow{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    #phone-buttons-container{
+        display: none;
+    }
+    #main_img{
+        width: 100%;
+        max-height: 100%;
+    }
+    #main_header{
+        width: 100vw;
+        min-height: 10vh;
+        background-color: #242424;
+        display: flex;
+        justify-content: center;
+    }
+    #container-main{
+        position: relative;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    #main_header_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+    #logo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    #block1-name{
+        font-family: Merriweather, 'serif';
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 5px;
+        font-size: 1.5em;
+    }
+    #block1-description{
+        background-color: #fff;
+        color: #242424;
+        font-family: Lato, 'serif';
+    }
+    #logo_img{
+        margin: 5px;
+        position: relative;
+    }
+    #block2-phone{
+        color: #f4ae1c;
+        font-family: Lato, 'serif';
+        letter-spacing: 4px;
+    }
+    #block2-mail{
+        color: #fff;
+        font-family: Merriweather, 'serif';
+        
+    }
+    #block3-time{
+        color: #fff;
+        font-family: Lato, 'serif';
+    }
+    #block3-desc{
+        color: #f4ae1c;
+        font-family: Merriweather, 'serif';
+    }
+    #inner-item1{
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    #inner-headers-container{
+        width: 90%;
+        background-color: rgba(87, 87, 87, 0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #inner-item4{
+        grid-row: span 3;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    #card{
+        width: 85%;
+        border-radius: 5px;
+        background-color: #272727;
+        min-height: 90%;
+        box-shadow: 10px 10px 7px #444;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #card-item1{
+        color: #fff;
+        font-family: Merriweather, 'serif';
+        font-size: 1.1em;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    #card-item2-btn{
+        color: #111 !important;
+        font-family: Merriweather, 'serif';
+        font-weight: 600 !important;
+        text-shadow: 1px 1px 2px #fff;
+        box-shadow: 2px 2px 2px #fff;;
+    }
+    #card-item3{
+        color: #fff !important;
+        font-family: Lato, 'serif';
+        text-align: center;
+    }
+    #inner-item7{
+        grid-column: span 2;
+        width: 100%;
+        color: #fff;
+        font-family: Merriweather, 'serif';
+        font-size: 1.3em;
+        font-weight: 700;
+        text-align: center;
+        display:flex;
+        align-items:flex-end;
+        margin-bottom:15px;
+    }
+    #inner-header1{
+        color: #fff;
+        font-family: Merriweather, 'serif';
+        font-size: 1.3em;
+        font-weight: 700;
+        margin: 5px;
+        text-align: center;
+    }
+    #inner-header2{
+        text-align: center;
+        margin: 5px;
+        width: 100%;
+        color: #fff;
+        font-family: Merriweather, 'serif';
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    #inner-item-smal-header{
+        padding:5px 50px 5px 50px;
+        text-align: center;
+        color: #f4ae1c;
+        margin-left: 6%;
+        font-family: Merriweather, 'serif';
+        font-size: 0.9em;
+        font-weight: 700;
+        background-color: rgba(59,59,59, 0.8);
+    }
+    .yellow-letter{
+        color: #f4ae1c;
+    }
+    .white-letter{
+        color: #f4ae1c;
+    }
+
+
+    /**/
+    #offer-header{
+        padding: 50px 0 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-family: Merriweather, 'serif';
+    }
+    #pseudo-border{
+        width: 7%;
+        border-top: 3px solid #333;
+        margin-bottom: 20px;
+    }
+    #offer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .offer-card{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch ;
+        flex-wrap: wrap;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px #aaa;
+        margin-bottom: 20px;
+    }
+    .offer-card-img-container{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .offer-card-img{
+        max-width: 100%;
+    }
+    .offer-card-header{
+        font-family: Merriweather, 'serif';
+        font-size: 1.4em;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: #f4ae1c;
+        text-shadow: 2px 1px 0px #000;
+    }
+    .offer-card-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        
+    }
+    .offer-card-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .card-desc-ul{
+        font-size: 1.1em;
+    }
+
+    /**/
+    #footer{
+        background-color: #373539;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #footer-header{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    #footer-header-contact{
+        color: #fff;
+        font-size: 2.4em;
+        font-family: Merriweather, 'serif';
+        margin-bottom: 20px;
+    }
+    #footer-header-desc{
+        color: #fff;
+        font-family: Merriweather, 'serif';
+    }
+    #footer-parts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-part-header{
+        color: #fff;
+        font-weight: 700;
+    }
+    .footer-part-content{
+        color: #fff;
+        font-family: Merriweather, 'serif';
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #footer-logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        max-height: 20%;
+        margin-top: 50px;
+    }
+}
+
