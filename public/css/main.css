@@ -105,7 +105,7 @@ a{
     }
     #inner-headers-container{
         width: 90%;
-        background-color: rgba(87, 87, 87, 0.9);
+        background-color: rgba(87, 87, 87, 0.8);
         display: flex;
         flex-direction: column;
         justify-content: center;
