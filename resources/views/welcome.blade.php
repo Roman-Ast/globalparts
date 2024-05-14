@@ -42,7 +42,7 @@
                         </div>
                         <div id="header-gis">
                             <img src="images/gis32.png" alt="" class="gis-bounce">
-                            <a style="" target="_blank" href="https://2gis.kz/astana/geo/7000000080248919">пр. Богенбай Батыра 56п</a>
+                            <a style="" target="_blank" href="https://2gis.kz/astana/geo/70000001080248919">пр. Богенбай Батыра 56п</a>
                         </div>
                     </div>
                 </div>
@@ -235,7 +235,7 @@
                     </div>
                     <div class="footer-part-content">
                         <img src="images/gis32.png" alt="">
-                        <a style="text-decoration: none; color:#fff;" href="https://2gis.kz/astana/geo/7000000080248919">пр. Богенбай Батыра 56п</a>
+                        <a style="text-decoration: none; color:#fff;" href="https://2gis.kz/astana/geo/70000001080248919">пр. Богенбай Батыра 56п</a>
                     </div>
                 </div>
                 <div class="footer-part">
